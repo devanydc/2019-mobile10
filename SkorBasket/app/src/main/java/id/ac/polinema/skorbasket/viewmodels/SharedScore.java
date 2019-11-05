@@ -39,7 +39,7 @@ public class SharedScore extends AndroidViewModel{
         return winner;
     }
 
-    public void setWinner(boolean winner) {
+    public void setWinner(MutableLiveData<Boolean> winner) {
         this.winner = winner;
     }
 }
